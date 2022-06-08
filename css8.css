@@ -1,0 +1,235 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.kontener
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 850px;
+	border-radius: 10px;
+	background-color: #e8ebed;
+	border: double #243b55;
+	border-width: 6px;
+	clear: both;
+	box-shadow: 0 0 25px #151f32;
+}
+
+html
+{
+	background:linear-gradient(to right, #151f32 0%, #243b55 50%, #151f32 100%);
+}
+
+#lista
+{
+	margin:30px auto 30px auto;
+	width: 300px;
+	display:flex;
+	padding: 30px;
+}
+#czworoscian
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	flex:1;
+	text-shadow: 0 0 5px black;
+	font-weight: bold;
+	width: 420px;
+	margin: 30px auto;
+	text-align: center;
+}
+#czworoscian:first-letter
+{
+	font-size: 40px;
+}
+#czworoscian ul.lista
+{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	background-color: #243b55;
+	border: 1px solid black;
+}
+
+#czworoscian li:hover ul.lista
+{
+	display: block;
+}
+#czworoscian ul.lista li:hover
+{
+	background-color: #1d9099;
+	color: #e79c10;
+}
+#czworoscian ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+#szescian
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	flex:1;
+	text-shadow: 0 0 5px black;
+	font-weight: bold;
+	width: 420px;
+	margin: 30px auto;
+	text-align:center;
+
+
+}
+#szescian:first-letter
+{
+	font-size: 40px;
+}
+#szescian ul.lista
+{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	background-color: #243b55;
+	border: 1px solid black;
+}
+
+#szescian li:hover ul.lista
+{
+	display: block;
+}
+#szescian ul.lista li:hover
+{
+	background-color: #1d9099;
+	color: #e79c10;
+}
+#szescian ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#i1
+{
+	color:#c33a36;
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+	border-top: solid #243b55;
+	margin-top:75px;
+	border-bottom: solid #243b55;
+	margin-bottom:60px;
+	font-family: 'Black Ops One', cursive;
+	padding: 15px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#bryly
+{
+	font-family: 'Black Ops One', cursive;
+	color: #1d9099;
+	text-align: center;
+
+	margin: 15px;
+	height: 50px;
+	font-size: 80px;
+	text-shadow: 5px 5px 0 #e79c10, -5px -5px 0 #d53a33;
+	font-weight: bold;
+}
+
+#opis
+{
+	font-family: 'Montserrat', sans-serif;
+	margin:40px;
+	color: #4e5766;
+	font-size: 20px;
+}
+
+footer
+{
+	text-align: center;
+	margin: 20px;
+	color: #e8ebed;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+#zrodlo
+{
+	color:#4e5766;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+#bryly:first-letter
+{
+	font-size: 120px;
+}
+#i1:first-letter
+{
+	font-size: 50px;
+}
+
+a:hover
+{
+	color: #e69c11;
+}
+
+a
+{
+	color: #c33a36;
+	text-decoration: none;
+
+}
+
+img
+{
+	float: right;
+	background: none;
+}
+
+#szescian > ul > li
+{
+	width: 200px;
+	display: inline-block;
+	position: relative;
+}
+#czworoscian > ul > li
+{
+	width: 200px;
+	display: inline-block;
+	position: relative;
+}
+.lok:first-letter
+{
+	font-size: 50px;
+}
+.sz:first-letter
+{
+	font-size: 40px;
+}
+.cz:first-letter
+{
+	font-size: 40px;
+}
+
+#menu
+{
+	text-align: center;
+	margin: 20px 300px;
+}
